@@ -1,0 +1,25 @@
+{
+  "name": "onl29_js_diploma",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kara1994/onl29_js_diploma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kara1994/onl29_js_diploma/issues"
+  },
+  "homepage": "https://github.com/Kara1994/onl29_js_diploma#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
