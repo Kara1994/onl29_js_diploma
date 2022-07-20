@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wildberries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.scss">
+    <script src="https://kit.fontawesome.com/c974aae434.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="header-container">
+                <a class="link-home" href="./index.html">
+                    <h1 class="header-title">wildberries</h1>
+                </a>
+                <div class="header-search">
+                    <label>
+                        <input placeholder="Я ищу..." type="text">
+                    </label>
+                </div>
+                <div class="header-bar">
+                    <div class="header-address">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span>Адреса</span>
+                    </div>
+                    <div class="header-login">
+                        <i class="fa fa-sign-in" aria-hidden="true"></i>
+                        <span>Войти</span>
+                    </div>
+                    <a href="./busket.html" class="header-basket">
+                        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        <span>Корзина</span>
+                        <span id="notification" class="header-basket__notification"></span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div id="clear-busket" class="clear-busket">Очистить корзину</div>
+                <div id="my-products" class="my-products"></div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-links">
+                    <div class="footer-links__social">
+                        <p>Мы в соцсетях</p>
+                        <ul>
+                            <li><a target="_blank" href="http://vk.com/club9695053">Вконтакте</a></li>
+                            <li><a target="_blank" href="http://www.odnoklassniki.ru/wildberries">Одноклассники</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/Wildberriesshop">YouTube</a></li>
+                            <li><a target="_blank" href="https://t.me/wildberriesru_official">Телеграм</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>
+                        2004-2022 © Wildberries — модный интернет-магазин одежды, обуви и аксессуаров. Все права защищены. Доставка по всей России.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div class="support-chat">
+            <i class="fa fa-commenting" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <script type="module" src="../static/busket.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #cb11ab 0, #481173 100%) no-repeat;
+}
+
+.empty-list {
+  font-size: 20px;
+  color: #7a7a7a;
+}
+
+.loader {
+  font-size: 18px;
+  color: #7a7a7a;
+}
+
+.support-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 99999;
+  right: 40px;
+  bottom: 40px;
+  background-color: #cb10ab;
+  border-radius: 50%;
+  transition: background-color ease-out .3s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ff00d2;
+  }
+}

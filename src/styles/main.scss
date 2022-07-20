@@ -1,0 +1,159 @@
+@import './constants.scss';
+
+main {
+  position: relative;
+  padding: 36px 24px 100px;
+  background-color: $base-color;
+  flex-grow: 1;
+  border-radius: 16px;
+  z-index: 10;
+}
+
+.main-container {
+  position: relative;
+  max-width: $container-width;
+  padding: 16px;
+  margin: auto;
+}
+
+.yandex-ad {
+  position: relative;
+  padding: 108px 24px;
+  text-align: center;
+  font-size: 40px;
+  color: lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 24px;
+
+  &__mark {
+    color: #f1602a;
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #0000e8;
+    cursor: pointer;
+
+    &:hover {
+      color: #5959ff;
+    }
+  }
+}
+
+.main-products {
+  display: none;
+  color: #232323;
+}
+
+.main-products-loader {
+  display: none;
+  margin-top: 16px;
+}
+
+.main-products.hide {
+  display: none;
+}
+
+.products-title {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.main-products-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.products-card {
+  width: 180px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px;
+
+  &__photo {
+    width: 100%;
+    height: 235px;
+
+    & > img {
+      width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  &__art {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #7a7a7a;
+
+    & > span {
+      color: #e11d1d;
+    }
+  }
+
+  &__btn-to-busket {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #969696;
+    font-size: 14px;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    transition: all ease-out .3s;
+
+    &:hover {
+      color: #629f9f;
+    }
+  }
+}
+
+.products-card-photo {
+  width: 100%;
+  height: 235px;
+
+  & > img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.my-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.clear-busket {
+  display: none;
+  max-width: 320px;
+  margin-bottom: 24px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #bf41ff;
+  border: 1px solid #cfa9ff;
+  border-radius: 6px;
+  transition: all ease-out .3s;
+
+  &:hover {
+    background-color: #f7eeff;
+  }
+}

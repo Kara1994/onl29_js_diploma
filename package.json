@@ -1,25 +1,16 @@
 {
-  "name": "onl29_js_diploma",
-  "source": "src/index.html",
+  "name": "wildberries",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kara1994/onl29_js_diploma.git"
+    "dev": "parcel src/pages/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "Karina Gaydamovich",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kara1994/onl29_js_diploma/issues"
-  },
-  "homepage": "https://github.com/Kara1994/onl29_js_diploma#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
     "parcel": "^2.6.2"
   }
 }
